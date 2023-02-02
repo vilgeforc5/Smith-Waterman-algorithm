@@ -9,7 +9,7 @@ Composition of three parts:
 (this is the matrix function in the algorithm)
 
 
-2) Scoring. Score each element from left to right, top in the matrix, considering the results of substitutions (diagonal scores, this is done recursively in the down algorithm) or gap additions (horizontal and vertical scores). If none of the ratings is positive, this element is assigned 0.
+2) Score each element from left to right, top in the matrix, considering the results of substitutions (diagonal scores, this is done recursively in the down algorithm) or gap additions (horizontal and vertical scores). If none of the ratings is positive, this element is assigned 0.
 
 (this is the back_func function in the algorithm)
 
