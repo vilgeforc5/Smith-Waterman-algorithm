@@ -1,3 +1,4 @@
+# Changed by user 1
 # Smith-Waterman-algorithm
 Python implementation of Smith–Waterman algorithm  
 
