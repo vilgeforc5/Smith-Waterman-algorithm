@@ -8,7 +8,7 @@ Used to determine the set of regions between two strings of nucleic acid sequenc
 Composition of three parts:
 
 1) Determination of the substitution matrix (estimates, weights - other variants of the name) and the penalty scheme for the gap. The substitution matrix assigns each pair a positivity or non-match. Typically, matches are rated high, and inconsistencies are rated low. The gap penalty function determines the cost of points for opening or expanding a gap. It is proposed that the scoring system is chosen depending on the purpose of the study.
-(this is the matrix function in the algorithm)
+(this is the matrix function in the algorithm).
 
 
 2) Score each element from left to right, top in the matrix, considering the results of substitutions (diagonal scores, this is done recursively in the down algorithm) or gap additions (horizontal and vertical scores). If none of the ratings is positive, this element is assigned 0.
