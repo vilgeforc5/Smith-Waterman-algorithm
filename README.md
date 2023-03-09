@@ -1,9 +1,7 @@
-# Changed by user 1
 # Smith-Waterman-algorithm
-# Changed by user 2 
 Python implementation of Smith–Waterman algorithm  
 
-Used to determine the set of regions between two strings of nucleic acid sequences or sequences by comparing segments of all possible lengths and optimize the measure of similarity.
+Used to determine the set of regions between two strings of nucleic acid sequences or sequences by comparing segments of all possible lCancel changesengths and optimize the measure of similarity.
 
 Composition of three parts:
 
